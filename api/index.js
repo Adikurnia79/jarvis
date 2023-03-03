@@ -12,7 +12,7 @@ app.use((req, res, next) => {
 // route
 
 app.get("/api/", (req, res) => {
-  res.send("adi");
+  res.send("Adi Kurniawan");
 });
 
 app.listen(3000, () => {
